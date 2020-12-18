@@ -50,6 +50,8 @@ body::after {
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
 }
 
+animate__pulse
+
 .container-1 {
     position: relative;
     display: flex;

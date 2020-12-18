@@ -11,7 +11,7 @@
 
 <body>
     <!-- <div class="container-1" style="flex: 0 0 100%;"> -->
-        <h1 class="container-1" style="flex: 0 0 100%;">Glass Calculator</h1>
+    <h1 class="container-1" style="flex: 0 0 100%;">Glass Calculator</h1>
     <!-- </div> -->
     <div class="container">
         <form class="calculator" name="calc">
@@ -39,8 +39,10 @@
     <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script type="text/javascript">
         VanillaTilt.init(document.querySelector(".container"), {
-            max: 25,
-            speed: 400
+            max: 5,
+            speed: 1000,
+            glare: true,
+            "max-glare": 0.2
         });
 
         //It also supports NodeList
